@@ -102,7 +102,7 @@ Sy=Sy_original;
 result_phase = [ sum_p, sum_np, sum_np-sum_p]                                                 % Calculate delta 
 
 
-%% error estimation 전에 한번 보여주기
+%% Plotting
 figure(1)
 subplot(1,2,1)
 plot(t,H*1000,'o')
